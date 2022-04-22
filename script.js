@@ -29,3 +29,9 @@ console.log(me);
 me.age = 21; // changing information inside the object, so this works with const
 
 console.log(me);
+
+// Dot notation (preferred)
+console.log(me.name);
+
+// Bracket notation (used in certain circumstances)
+console.log(me["height"]);
